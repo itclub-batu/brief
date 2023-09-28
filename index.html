@@ -3,6 +3,7 @@
 
 <head>
     <title>IT Club</title>
+    
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -43,6 +44,21 @@
     background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
     color: white; 
 }
+
+.custom-instagram-color,
+.btn-primary,
+.btn-danger,
+.btn-success {
+    width: 100%;
+    margin: 5px 0;
+}
+
+
+.custom-width {
+    width: 90%;
+    margin: 0 auto; /* Center the buttons horizontally */
+}
+
 
 
     </style>
@@ -86,15 +102,29 @@
         </div>
     </div>
 
-    <div class="container mt-4 mb-4 text-center text-capitalize ">
+    <div class="container mt-4 mb-4 text-center text-capitalize">
         <h3 class="fs-1">Follow Us on Social Media:</h3>
-        <div class="social-icons raw">
-            <a href="https://www.facebook.com/profile.php?id=100092738074559&mibextid=LQQJ4d" class="btn btn-primary col-3 col-lg-7 m-1"><i class="fab fa-facebook fs-1"></i></a>
-            <a href="https://instagram.com/information.technology_club?igshid=MzRlODBiNWFlZA==" class="btn custom-instagram-color col-3 col-lg-7 m-1"><i class="fab fa-instagram fs-1"></i></a>
-            <a href="https://youtube.com/@ITClub-jw2vw?si=0bgp_YxclqLzwsW8" class="btn btn-danger col-3 col-lg-7 m-1"><i class="fab fa-youtube fs-1 text-white"></i></a>
-            <a href="https://chat.whatsapp.com/IXivLzfJEN59EKFR1yBHLB" class="btn btn-success col-3 col-lg-7 m-1"><i class="fab fa-whatsapp fs-1"></i></a>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-9 col-lg-7 custom-width">
+                <a href="https://www.facebook.com/profile.php?id=100092738074559&mibextid=LQQJ4d"
+                    class="btn btn-primary btn-block"><i class="fab fa-facebook fs-1"></i></a>
+            </div>
+            <div class="col-12 col-md-9 col-lg-7 custom-width">
+                <a href="https://instagram.com/information.technology_club?igshid=MzRlODBiNWFlZA=="
+                    class="btn custom-instagram-color btn-block"><i class="fab fa-instagram fs-1"></i></a>
+            </div>
+            <div class="col-12 col-md-9 col-lg-7 custom-width">
+                <a href="https://youtube.com/@ITClub-jw2vw?si=0bgp_YxclqLzwsW8"
+                    class="btn btn-danger btn-block"><i class="fab fa-youtube fs-1 text-white"></i></a>
+            </div>
+            <div class="col-12 col-md-9 col-lg-7 custom-width">
+                <a href="https://chat.whatsapp.com/IXivLzfJEN59EKFR1yBHLB"
+                    class="btn btn-success btn-block"><i class="fab fa-whatsapp fs-1"></i></a>
+            </div>
         </div>
     </div>
+    
+    
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

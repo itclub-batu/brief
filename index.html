@@ -1,41 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
-    <!-- Add your CSS stylesheets or link to external stylesheets here -->
-    <!-- For example: <link rel="stylesheet" href="styles.css"> -->
+    <title>IT Club</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+
+        .jumbotron {
+            background-image: url(img/itclub.png);
+            background-size: 100px;
+            background-position: center;
+            background-attachment: fixed;
+            height: fit-content;
+            min-height: 300px;
+        }
+        .jumbotron::after {
+            content: "";
+            background-color: rgba(255, 255, 255, 0.6);
+            position: absolute;
+            top: 100px;
+            left: 0;
+            right: 0;
+            height: 100%;
+        }
+        
+        .jumbotron h1,
+        .jumbotron p,
+        .container,
+        .navbar {
+            position: relative;
+            z-index: 1;
+        }
+       
+        .custom-instagram-color {
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    color: white; 
+}
+
+
+    </style>
 </head>
+
 <body>
     <header>
-        <h1>Welcome to Your Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <!-- Add more navigation links as needed -->
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center text-start" href="#">
+                    <img src="img/itclub.png" style="width: 100%; max-height: 80px;" alt="IT Club Logo">
+                    <h1 class="fs-1">IT Club</h1>
+                </a>
+            </div>
         </nav>
     </header>
 
-    <main>
-        <!-- Your website content goes here -->
-        <p>This is the main content of your website.</p>
-    </main>
+    <div class="jumbotron bg-opacity-10 text-center">
+        <div class="container">
+            <h1 class="display-4 fs-1 fw-bold mt-4">Welcome to IT Club</h1>
+            <p class="lead fw-normal fs-3">
+                نادي تقنية المعلومات هو مجتمع من عشاق التكنولوجيا الذين يشاركون شغفهم بتقنية المعلومات والبرمجة. نحن نوفر منصة للتعلم والتواصل والبقاء على اطلاع دائم مع أحدث الاتجاهات في عالم التكنولوجيا.
+            </p>
+        </div>
+    </div>
 
-    <footer>
-        <!-- Social media links -->
-        <ul>
-            <li><a href="https://www.facebook.com/">Facebook</a></li>
-            <li><a href="https://twitter.com/">Twitter</a></li>
-            <li><a href="https://www.instagram.com/">Instagram</a></li>
-            <!-- Add more social media links as needed -->
-        </ul>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="fs-1 text-center">About Us</h2>
+                <p class="fs-3 fw-normal text-end">
+                    في نادي تقنية المعلومات، نحن ملتزمون بتعزيز مجتمع من عشاق التكنولوجيا والمحترفين. سواء كنت مبتدئًا أو مطورًا متمرسًا، يقدم نادينا مجموعة متنوعة من الموارد والفعاليات لمساعدتك في التعلم والنمو في عالم التكنولوجيا.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="fs-1 text-center">Join Us Today</h2>
+                <p class="fs-3 fw-normal text-end">
+                    هل أنتم مستعدون لرفع رحالتكم التقنية إلى المستوى التالي؟ انضموا إلى نادي تقنية المعلومات وتواصلوا مع أفراد ذوي أفكار مماثلة. احصلوا على فرص الانضمام إلى ورش العمل والندوات وفرص التواصل التي ستساعدكم على التفوق في صناعة التكنولوجيا.
+                </p>
+            </div>
+        </div>
+    </div>
 
-        <!-- Copyright information or other footer content -->
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
-    </footer>
+    <div class="container mt-4 mb-4 text-center text-capitalize ">
+        <h3 class="fs-1">Follow Us on Social Media:</h3>
+        <div class="social-icons raw">
+            <a href="https://www.facebook.com/profile.php?id=100092738074559&mibextid=LQQJ4d" class="btn btn-primary col-3 col-lg-7 m-1"><i class="fab fa-facebook fs-1"></i></a>
+            <a href="https://instagram.com/information.technology_club?igshid=MzRlODBiNWFlZA==" class="btn custom-instagram-color col-3 col-lg-7 m-1"><i class="fab fa-instagram fs-1"></i></a>
+            <a href="https://youtube.com/@ITClub-jw2vw?si=0bgp_YxclqLzwsW8" class="btn btn-danger col-3 col-lg-7 m-1"><i class="fab fa-youtube fs-1 text-white"></i></a>
+            <a href="https://chat.whatsapp.com/IXivLzfJEN59EKFR1yBHLB" class="btn btn-success col-3 col-lg-7 m-1"><i class="fab fa-whatsapp fs-1"></i></a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
